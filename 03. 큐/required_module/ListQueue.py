@@ -12,7 +12,7 @@ class ListQueue:
         return self.__queue[0]
     
     def isEmpty(self):
-        return len(self) == 0
+        return len(self.__queue) == 0
     
     def dequeueAll(self):
         self.__queue.clear()
